@@ -1,8 +1,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #222;
+  background-color: #121212;
+  color: #e0e0e0;
   margin: 0;
   padding: 0;
 }
@@ -10,16 +10,16 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
 }
 h1 {
-  color: #0a3d62;
+  color: #00bcd4;
   text-align: center;
 }
 .subtitle {
   font-style: italic;
-  color: #3c6382;
+  color: #80cbc4;
   text-align: center;
 }
 ul, ol {
@@ -29,7 +29,13 @@ footer {
   margin-top: 40px;
   text-align: center;
   font-size: 0.9em;
-  color: #555;
+  color: #aaa;
+}
+a {
+  color: #64b5f6;
+}
+a:hover {
+  text-decoration: underline;
 }
 .qr {
   width: 150px;
