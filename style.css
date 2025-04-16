@@ -1,7 +1,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   color: #222;
   margin: 0;
   padding: 0;
@@ -15,10 +15,12 @@ main {
 }
 h1 {
   color: #0a3d62;
+  text-align: center;
 }
 .subtitle {
   font-style: italic;
   color: #3c6382;
+  text-align: center;
 }
 ul, ol {
   margin-left: 20px;
@@ -32,4 +34,15 @@ footer {
 .qr {
   width: 150px;
   margin-top: 10px;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  main {
+    padding: 15px;
+  }
+  .qr {
+    width: 100px;
+  }
 }
